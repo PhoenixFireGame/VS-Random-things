@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "B_B	BSB	B_B",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:bamboostakes" },
+			"S": { "type": "item", "code": "game:stick" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { type: "block", code: "game:ladder-wood-north", quantity: 3  }
+	},
+]

@@ -1,0 +1,24 @@
+{
+	"ingredientPattern": "H,S",
+	"ingredients": {
+		"H": {
+			"type": "item",
+			"code": "game:hammer-*",
+			"isTool": "true",
+			"toolDurabilityCost": 4,
+		},
+		"S": {
+			"type": "block",
+			"code": "game:stonebricks-*",
+			"name": "rock",
+			"allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "redmarble", "whitemarble", "greenmarble", "bauxite",],
+		}
+	},
+	"width": 1,
+	"height": 2,
+	"output": {
+		"type": "block",
+		"code": "game:agedstonebricks-{rock}",
+		"quantity": 1
+	}
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "file": "game:itemtypes/food/fish.json",
+        "op": "add",
+        "path": "/attributes",
+        "value": {
+			"inPiePropertiesByType": {
+            "*-raw": {
+                "texture": "block/food/pie/fill-fish",
+                "partType": "Filling"
+            }
+        }
+		}
+    }
+]
